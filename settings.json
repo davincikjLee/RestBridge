@@ -1,0 +1,14 @@
+{
+    "prompt": "middle-aged woman wearing a formal black suit, white blouse, soft and respectful expression, minimal background, dignified and elegant portrait, soft lighting, realistic details, classic memorial portrait style",
+    "negative_prompt": "full body portrait of a person, realistic proportions, anatomically correct, detailed hands and face, balanced body structure",
+    "sampling_steps": 60,
+    "cfg_scale": 10,
+    "denoising_strength": 0.6,
+    "width": 512,
+    "height": 512,
+    "resize_mode": 2,                
+    "masked_content": "fill",        
+    "mask_blur": 10,
+    "inpaint_full_res": true,
+    "inpaint_full_res_padding": 32
+}

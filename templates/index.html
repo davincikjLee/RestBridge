@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inpainting and img2img</title>
+</head>
+<body>
+    <h1>Upload Image for Inpainting</h1>
+    <form action="/generate" method="post" enctype="multipart/form-data">
+        <label for="image">Select image:</label>
+        <input type="file" id="image" name="image" required><br><br>
+        <input type="submit" value="Generate Image">
+    </form>
+</body>
+</html>
